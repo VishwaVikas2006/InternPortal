@@ -61,7 +61,7 @@ src/
 Create a `.env` file in the frontend directory:
 
 ```env
-VITE_API_URL=http://localhost:3000
+VITE_API_URL=https://intern-portal-backend-gafh.onrender.com
 ```
 
 ## 🚀 Deployment (Vercel)

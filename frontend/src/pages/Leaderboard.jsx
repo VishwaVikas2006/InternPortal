@@ -14,7 +14,7 @@ const Leaderboard = () => {
   const fetchLeaderboardData = async () => {
     try {
       setLoading(true)
-      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'
+      const API_URL = import.meta.env.VITE_API_URL || 'https://intern-portal-backend-gafh.onrender.com'
       const response = await axios.get(`${API_URL}/api/leaderboard`)
       setLeaderboardData(response.data)
     } catch (err) {
