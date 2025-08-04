@@ -133,5 +133,26 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Built with ❤️ for Intern Portal 2025** 
 =======
-# InternPortal
->>>>>>> b008af933dfc61059630f50e0e6490cb806333ed
+�� QUICK FIXES
+1. Backend (Render) - Auto-deploying now
+✅ CORS is fixed to allow all domains
+✅ Backend will redeploy automatically
+2. Frontend (Vercel) - Set Environment Variable
+Go to your Vercel dashboard:
+Find your project: internportal2025
+Go to Settings → Environment Variables
+Add this variable:
+Name: VITE_API_URL
+Value: https://intern-portal-backend-gafh.onrender.com
+Environment: Production, Preview, Development
+Save and redeploy
+3. Test Your URLs
+Backend (Working):
+✅ https://intern-portal-backend-gafh.onrender.com/api/health
+✅ https://intern-portal-backend-gafh.onrender.com/api/intern
+✅ https://intern-portal-backend-gafh.onrender.com/api/leaderboard
+Frontend (After setting env var):
+🎯 https://internportal2025.vercel.app
+🎯 The Issue
+The frontend is trying to fetch data but doesn't have the correct API URL. Once you set the VITE_API_URL environment variable in Vercel, everything will work!
+Your project will be fully functional once you set that one environment variable in Vercel!
