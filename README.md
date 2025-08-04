@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 Intern Portal 2025
 
 A full-stack web application for managing intern information, donations tracking, and leaderboards.
@@ -131,3 +132,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Built with ❤️ for Intern Portal 2025** 
+=======
+# InternPortal
+>>>>>>> b008af933dfc61059630f50e0e6490cb806333ed
